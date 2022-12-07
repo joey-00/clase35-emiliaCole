@@ -8,27 +8,27 @@
     <script src="https://kit.fontawesome.com/d9eb1b8442.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
-<body>
-    <h1>MUSIC</h1>
-    <header>
-        <nav>
-        <ul>
-            <li><a href="/" >HOME</a>
-            <li><a href="/about">ABOUT</a>
-            <li><a href="/music">MUSIC</a>
-            <li><a href="/contact">CONTACT</a>
-        </ul>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-spotify"></i></a>
-        <a href=""><i class="fa-brands fa-apple"></i></a>
-        <a href=""><i class="fa-brands fa-amazon"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-    </nav>
-    </header>
-    <main>
+<body id="inicio" class="music">
+    <header class="header"> 
+        <nav class="header__nav">
+            <ul class="header__nav--menu">
+                <li><a href="/" >| HOME</a>
+                <li><a href="/about">| ABOUT</a>
+                <li><a href="/music">| MUSIC</a>
+                <li><a href="/contact">| CONTACT |</a>
+            </ul>
+            <div class="header__nav--redes">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-spotify"></i></a>
+                    <a href=""><i class="fa-brands fa-apple"></i></a>
+                    <a href=""><i class="fa-brands fa-amazon"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </nav>
+    <main class="music__main">
         <h5>direc links</h5>
-        <nav>
+        <nav class="music__main::nav">
             <ul>
                 <li><a href="#album"></a>album</li>
                 <li><a href="#organic"></a>vieo; organic love</li>
@@ -36,9 +36,9 @@
             </ul>
         </nav>
     <!-- caja para los albunes -->
-        <section>
+        <section class="music__main__section">
             <!-- caja de albunes -->
-                <article id="album">
+                <article id="album" class="music__main__section__article">
                     <h3>Album:<br>twist my reality</h3>
                     <img src="/images/emilia-play-list.png" alt="" width="640">
                 </article>
@@ -51,9 +51,9 @@
                 <a href="#">go top</a>
         </section>
     <!-- caja para los videos -->
-        <section>
+        <section class="music__main__section">
             <!-- caja de videos -->
-            <article id="organic">
+            <article id="organic" class="music__main__section__article">
                 <h3>Video: <br> Organic Love</h3>
                 <iframe src="https://player.vimeo.com/video/135166028" width="640" height="360" frameborder="0"
                 allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -66,7 +66,7 @@
                 <a href="#">go top</a>
             </article>
             <!-- caja de video -->
-            <article id="street">
+            <article id="street" class="music__main__section__article">
                 <h3>Video: <br> street light</h3>
                 <iframe src="https://player.vimeo.com/video/134861419" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                 <div>

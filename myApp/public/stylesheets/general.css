@@ -2,7 +2,8 @@
     margin: 0;
 }
 body{
-    font-family: 'Open Sans';
+    font-family: var(--tipografiaGeneral);
+    padding: 10px
 }
 a{
     text-decoration: none;
@@ -16,8 +17,8 @@ ul, ol{
 }
 
 h1{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--tipografiaTItulos);
     font-weight: 700;
-    font-size: 72px;
+    font-size: 65px;
     text-transform: uppercase;
 }
