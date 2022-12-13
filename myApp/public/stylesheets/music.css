@@ -1,0 +1,26 @@
+.music{
+    background-image: url('/images/emilia-music-top.jpg');
+    background-size: 100% 8%;
+    background-repeat: no-repeat;
+    background-position: top;
+} 
+.music__main--titulo{
+    margin-top: 75px;
+    margin-bottom: 45px;
+}
+.music__main h5{
+    font-size: 15px;
+    font-weight: 300px;
+    margin-bottom: 10px;
+}
+.music__main--nav{
+    font-size: 15px;
+    margin: 20px 35px;
+}
+.music__main__section__article h3{
+    font-family: var(--tipografiaTItulos);
+    text-transform: uppercase;
+}
+.music__main__section{
+    
+}
